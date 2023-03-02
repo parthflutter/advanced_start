@@ -20,7 +20,7 @@ class _counterScreenState extends State<counterScreen> {
       ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
-            Center(
+            child: Center(
               child: Consumer<CounterProvider>(
                 builder :(context,value,child)=>Text(
                   "${value.i}",
